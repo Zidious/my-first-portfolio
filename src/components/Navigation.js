@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Logo from '../assets/avataaars.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 function Navigation(props) {
