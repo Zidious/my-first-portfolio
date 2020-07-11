@@ -7,3 +7,5 @@ Written in ReactJS along with Tailwind CSS. Running on Netlify.
 My initial design built through Sketch:
 
 {insert design image}
+
+Need to add more description
