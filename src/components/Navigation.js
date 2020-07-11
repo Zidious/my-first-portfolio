@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Logo from '../assets/avataaars.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 function Navigation(props) {
-  const [isActive, setIsActive] = useState(false);
-
   return (
     <div>
       <nav class='flex items-center justify-between flex-wrap p-1 shadow-xl border-b border-black border-opacity-25'>
