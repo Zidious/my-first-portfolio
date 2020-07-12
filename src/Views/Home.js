@@ -21,7 +21,7 @@ function Home() {
                 smooth={true}
                 duration={1300}>
                 <button className='bg-transparent hover:bg-gray-800 text-black font-semibold hover:text-white hover:transparent py-2 px-4 border border-black rounded'>
-                  Recent Projects
+                  Projects
                 </button>
               </Link>
             </div>
