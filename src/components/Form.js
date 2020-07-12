@@ -48,7 +48,7 @@ function Form() {
             <button
               type='submit'
               className=' w-full bg-transparent hover:bg-gray-800 text-black font-semibold hover:text-white hover:transparent mt-8 py-2 px-4 border border-black rounded'>
-              Submit
+              Send Message
             </button>
           </div>
         </div>
