@@ -7,9 +7,6 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.1",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
     "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
@@ -19,12 +16,10 @@
     "react-scroll": "^1.8.0",
     "react-spring": "^8.0.27",
     "tailwindcss": "^1.4.6",
-    "typeface-anonymous-pro": "^0.0.72",
-    "yarn": "^1.22.4"
+    "typeface-anonymous-pro": "^0.0.72"
   },
   "scripts": {
     "build:css": "postcss src/index.css -o src/tailwind.css",
-    "watch:css": "postcss src/index.css -o src/tailwind.css -w",
     "start": "yarn build:css && react-scripts start",
     "build": "yarn build:css && CI= react-scripts build",
     "test": "react-scripts test",
