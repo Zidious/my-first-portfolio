@@ -16,6 +16,7 @@ function Form() {
             <input
               className=' appearance-none border border-gray-200 p-2 focus:outline-none focus:border-gray-500'
               type='text'
+              name='title'
               placeholder='Enter a title'
             />
 
@@ -24,6 +25,7 @@ function Form() {
               <input
                 className=' appearance-none border border-gray-200 p-2 focus:outline-none focus:border-gray-500'
                 type='text'
+                name='name'
                 placeholder='Enter a name'
               />
             </div>
@@ -32,12 +34,14 @@ function Form() {
               <input
                 className=' appearance-none border border-gray-200 p-2 focus:outline-none focus:border-gray-500'
                 type='email'
+                name='email'
                 placeholder='Enter a email'
               />
             </div>
             <div className='text-sm flex flex-col'>
               <label className='font-bold mt-4 mb-2'>Description</label>
               <textarea
+                name='message'
                 className=' appearance-none w-full border border-gray-200 p-2 h-40 focus:outline-none focus:border-gray-500'
                 placeholder='Enter your description'></textarea>
             </div>
