@@ -3,21 +3,11 @@ import React from 'react';
 function Form() {
   return (
     <div className='mx-4 card  max-w-lg p-10 md:rounded-lg my-8 mx-auto'>
-      <form name='contact' method='POST' data-netlify='true'>
+      <form naame='contact' method='POST' data-netlify='true'>
         <div className='title'>
           <h1 className='font-bold text-center'>
-            {' '}
-            Request a Service or Feedback
+            Request services or issue feedback
           </h1>
-        </div>
-
-        <div className='options md:flex md:space-x-6 text-sm items-center text-gray-700 mt-4'>
-          <p className='w-full mb-2 md:mb-0'>I would like to:</p>
-          <select className='w-full border border-gray-200 p-2 focus:outline-none focus:border-gray-500'>
-            <option value='selected'>Select an option</option>
-            <option value='feature'>Enquire Service(s)</option>
-            <option value='feedback'>Feedback</option>
-          </select>
         </div>
 
         <div className='form mt-4'>
