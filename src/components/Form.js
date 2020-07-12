@@ -3,7 +3,7 @@ import React from 'react';
 function Form() {
   return (
     <div className='mx-4 card  max-w-lg p-10 md:rounded-lg my-8 mx-auto'>
-      <form naame='contact' method='POST' data-netlify='true'>
+      <form name='contact' method='POST' data-netlify='true'>
         <div className='title'>
           <h1 className='font-bold text-center'>
             Request services or issue feedback
