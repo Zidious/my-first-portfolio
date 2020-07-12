@@ -3,7 +3,7 @@ import React from 'react';
 function Form() {
   return (
     <div className='mx-4 card  max-w-lg p-10 md:rounded-lg my-8 mx-auto'>
-      <form name='contact' method='POST' data-netlify='true'>
+      <form name='contact' method='POST' netlify>
         <div className='title'>
           <h1 className='font-bold text-center'>
             Request services or issue feedback
@@ -12,14 +12,6 @@ function Form() {
 
         <div className='form mt-4'>
           <div className='flex flex-col text-sm'>
-            <label className='font-bold mb-2 mt-2'>Title</label>
-            <input
-              className=' appearance-none border border-gray-200 p-2 focus:outline-none focus:border-gray-500'
-              type='text'
-              name='title'
-              placeholder='Enter a title'
-            />
-
             <div className='text-sm flex flex-col'>
               <label className='font-bold mt-4 mb-2'>Name</label>
               <input
@@ -39,11 +31,11 @@ function Form() {
               />
             </div>
             <div className='text-sm flex flex-col'>
-              <label className='font-bold mt-4 mb-2'>Description</label>
+              <label className='font-bold mt-4 mb-2'>Message</label>
               <textarea
                 name='message'
                 className=' appearance-none w-full border border-gray-200 p-2 h-40 focus:outline-none focus:border-gray-500'
-                placeholder='Enter your description'></textarea>
+                placeholder='Enter your message'></textarea>
             </div>
           </div>
 
