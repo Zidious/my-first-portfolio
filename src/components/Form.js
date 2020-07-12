@@ -3,7 +3,7 @@ import React from 'react';
 function Form() {
   return (
     <div className='mx-4 card  max-w-lg p-10 md:rounded-lg my-8 mx-auto'>
-      <form name='contact' netlify='true'>
+      <form name='contact' netlify>
         <div className='title'>
           <h1 className='font-bold text-center'>
             {' '}
