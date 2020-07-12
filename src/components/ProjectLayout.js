@@ -2,6 +2,18 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function ProjectLayout(props) {
+  const hasRepo = props.repoLink ? (
+    <a href={props.repoLink} target='_blank' rel='noopener noreferrer'>
+      <FontAwesomeIcon
+        icon={props.repo}
+        size='2x'
+        color='black'
+        className='hover:text-gray-600'
+      />
+    </a>
+  ) : (
+    <div className='mt-2 text-gray-700'>Private</div>
+  );
   return (
     <div className='sm:w-full md:w-full lg:w-1/2 xl:w-1/2 text-gray-700 text-left shadow-lg px-4 py-2 m-5 border'>
       <div className='flex-grow mt-1'>
@@ -25,19 +37,8 @@ function ProjectLayout(props) {
       </div>
 
       <div className='flex bottom-0 justify-between pt-10'>
+        <div className='text-gray-700'>{hasRepo}</div>
         <div className='text-gray-700'>
-          Repository:
-          <a href={props.repoLink} target='_blank' rel='noopener noreferrer'>
-            <FontAwesomeIcon
-              icon={props.repo}
-              size='2x'
-              color='black'
-              className='hover:text-gray-600'
-            />
-          </a>
-        </div>
-        <div className='text-gray-700'>
-          Language:
           <FontAwesomeIcon icon={props.icon} size='2x' color='black' />
         </div>
       </div>
