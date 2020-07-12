@@ -34,7 +34,7 @@ function Projects() {
   const repoLinkBTT = 'https://github.com/Zidious/BTT-TouchBarScript';
 
   return (
-    <div class='xl:flex-no-wrap xl:flex lg:flex-no-wrap lg:flex sm:flex-wrap md:flex-wrap mb-4 justify-between p-10'>
+    <div className='xl:flex-no-wrap xl:flex lg:flex-no-wrap lg:flex sm:flex-wrap md:flex-wrap mb-4 justify-between p-10'>
       <ProjectLayout
         creationName={creationTravala}
         website={linkTravala}

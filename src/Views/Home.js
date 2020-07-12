@@ -20,7 +20,7 @@ function Home() {
                 to='recent-projects-end'
                 smooth={true}
                 duration={1300}>
-                <button class='bg-transparent hover:bg-gray-800 text-black font-semibold hover:text-white hover:transparent py-2 px-4 border border-black rounded'>
+                <button className='bg-transparent hover:bg-gray-800 text-black font-semibold hover:text-white hover:transparent py-2 px-4 border border-black rounded'>
                   Recent Projects
                 </button>
               </Link>
