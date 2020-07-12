@@ -3,7 +3,11 @@ import React from 'react';
 function Form() {
   return (
     <div className='mx-4 card  max-w-lg p-10 md:rounded-lg my-8 mx-auto'>
-      <form name='contact' method='POST' netlify>
+      <form
+        name='contact'
+        method='post'
+        data-netlify='true'
+        data-netlify-honeypot='bot-field'>
         <div className='title'>
           <h1 className='font-bold text-center'>
             Request services or issue feedback
